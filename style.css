@@ -1,0 +1,240 @@
+/*
+This stylesheet is part of the [in] business template downloaded from the oswd.org site 
+
+The stylesheet and template where made by Tjobbe Andrews from NOW:design www.now-design.co.uk
+*/
+html {
+	width: 100%
+}
+
+body {
+	font-family: "Trebuchet MS", verdana, arial, "Times New Roman";
+	font-size: 90%;
+	color: #3D3535;
+	background-color: #C4E0FA;
+	margin: 20px;
+	padding: 0px;
+	line-height: 140%;
+	background-image: url(images/bgpage.gif);
+	background-repeat: repeat-x;
+}
+
+/* Wrapper */
+.all {
+	text-align: center; 
+	width: 100%;
+}
+
+/* the container */
+.box {
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: left;
+	width: 90%;
+	border: thin solid #0099FF;
+}
+
+/*holds the tabs at the top*/
+#menu {
+	background-color: #FFFFFF;
+	text-align: left;
+	border-bottom: 1px solid #FFFFFF;
+	padding: 0px;
+	margin: 0px;
+}
+h1 {
+	color: #0099FF;
+	border-bottom-width: medium;
+	border-bottom-style: dotted;
+	border-top-color: #0099FF;
+	border-right-color: #0099FF;
+	border-bottom-color: #0099FF;
+	border-left-color: #0099FF;
+}
+h2 {
+	color: #0099FF;
+}
+h3 {
+	color: #0099FF;
+}
+
+
+#menu ul {
+height: 100%;
+margin: 0;
+}
+
+#menu li {
+list-style-type: none;
+float: left;
+width: auto;
+
+}
+
+#menu a:link, #menu a:visited {
+display: block;
+color: #D1EBF4;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+#menu a:hover, #menu a:visited:hover {
+color: #FFFFFF;
+font-weight: bold;
+text-decoration: none;
+
+}
+
+/*holds the logo and image*/
+.header {
+	background-color: #0099FF;
+	padding: 5px; 
+	margin-top:0px;
+	height: 100px;
+}
+.header h1 {
+	color: #FFFFFF;
+}
+.header h1 a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+
+
+/*defines the colours for the tabs, with corner background images*/
+.menu a:link, .menu a:active, .menu a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #0099FF;
+	background-image: url(images/corner.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 4px;
+	padding-top: 0px;
+	padding-right: 7px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+}
+
+.menu a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	padding: 0px 7px 3px 7px;
+	margin: 0 0 0 4px;
+	background-color: #0066CC;
+	background-image: url(images/corner2.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+/*just a fix, taken from http://www.positioniseverything.net/easyclearing.html*/
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {
+	display: inline-table;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+/* End hide from IE-mac */
+
+/*the main text container*/
+.content {
+	margin-right: 255px;
+	padding: 20px;
+}
+
+.content h1 {
+	font-size: 110%;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	border-bottom-width: medium;
+	border-bottom-style: dotted;
+	border-bottom-color: #0099FF;
+}
+
+/*this is the right hand bar, news bar, links bar w/e*/
+.newsbar {
+	margin-top: 40px;
+	width: 245px;
+	float: right;
+}
+
+.newsbar h1 {
+	background-color: #0099FF;
+	color: #FFFFFF;
+	padding: 3px;
+	margin: 0px 0px 0px 0px;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/*this just lets you have a "comment" type area in the main content*/
+.p1 {
+	padding: 20px;
+	background-color: #F7F7F4;
+	font-size:90%;
+}
+
+/*sets the padding for the newsbar text, not the headings*/
+.p2 {
+	padding: 20px;
+	background-color: #FFFFFF;
+	font-size: 90%;
+	list-style-image: url(images/b.gif);
+	list-style-position: 10px;
+}
+
+.p2 ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+/*the footer chunk*/
+.footer {
+	clear:both;
+	background-color: #0099FF;
+	padding: 4px;
+	font-size: 80%;
+	text-align: center;
+	color: #FFFFFF;
+}
+.footer a:link, a:active, a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.footer a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/*sets the link colours and style*/
+a:link, a:active, a:visited {
+	color: #0099FF;
+}
+
+a:hover {
+	color: #A53512;
+	text-decoration: none;
+}
